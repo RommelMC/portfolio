@@ -1,0 +1,248 @@
+#wrapper{
+	position: absolute;
+	top: 0px;
+	left:0px;
+	height:1030px;
+	width:920px;
+	background-color: #F9F9F9;
+}
+
+#header{
+	display: block;
+	width:920px;
+	height: 70px;
+	background-color: #FAFAFA;
+	overflow: hidden;
+}
+
+#name{
+	display: inline-block;
+	font-family: "comic-sans";
+	font-size: 25px;
+	font-weight: bolder;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#quote{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 447px;
+}
+
+#everything{
+	display: block;
+	background: -webkit-linear-gradient(#4E3A42, #4A363E); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#4E3A42, #4A363E); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#4E3A42, #4A363E); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#4E3A42, #4A363E); /* Standard syntax */
+	height: 890px;
+	width: 900px;
+	padding: 0px 10px 0px 10px;
+	border: 1px solid black;
+}
+/*#me{
+	height: 270px;
+	widows: 445px;
+}*/
+#image{
+	/*position:absolute;*/
+	background-color: grey;
+	height: 250px;
+	width: 378px;
+	padding: 5px;
+/*	top: 20px;
+	left: 20px;
+	padding: 5px;*/
+	display: inline-block;
+	margin: 20px 10px 20px 10px;
+	border: 1px solid black;
+}
+
+#about{
+	background-color: grey;
+	height: 260px;
+	width: 464px;
+	display: inline-block;
+	margin: 20px 10px 20px 10px;
+	border: 1px solid black;
+}
+
+#aboutBox{
+	height: 43px;
+	background: -webkit-linear-gradient(#A2A1A8, #8C8A97, #A2A1A8); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#A2A1A8, #8C8A97, #A2A1A8); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#A2A1A8, #8C8A97, #A2A1A8); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#A2A1A8, #8C8A97, #A2A1A8);
+}
+
+#title1{
+	display: block;
+	float: left;
+	color:white;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 351px;
+}
+
+#me{
+	display: block;
+	height: 249px;
+}
+
+#aboutme{
+	background-color: white;
+	float: left;
+	display: block;
+	/*margin:10px;*/
+	height:217px;
+	font-size: 16.6px;
+}
+.descme{
+	display: block;
+	margin:10px;
+}
+#footer{
+	display: block;
+	background-color: #F9F9F9;
+	height: 70px;
+	width:920px;
+}
+
+.bottom{
+	display: inline-block;
+	float: left;
+	height: 566px;
+	width: 277px;
+	/*background-color: #9998A2;*/
+	margin:0px 10px 0px 10px;
+	border: 1px solid black;
+}
+
+.bothead{
+	margin: 10px 10px 10px 10px;
+	color: white;
+	font-size: 20px;
+	/*background: -webkit-linear-gradient(#A2A1A8, #8C8A97, #A2A1A8); 
+  	background: -o-linear-gradient(#A2A1A8, #8C8A97, #A2A1A8); 
+  	background: -moz-linear-gradient(#A2A1A8, #8C8A97, #A2A1A8); 
+  	background: linear-gradient(#A2A1A8, #8C8A97, #A2A1A8);*/
+}
+
+.botbox{
+	float:left;
+	height:53px;
+	width: 277px;
+	background: -webkit-linear-gradient(#A2A1A8, #8C8A97, #A2A1A8); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#A2A1A8, #8C8A97, #A2A1A8); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#A2A1A8, #8C8A97, #A2A1A8); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#A2A1A8, #8C8A97, #A2A1A8);
+}
+.botpic{
+	width: 277px;
+}
+
+.botdesc{
+	background-color: #DDCFDC;
+	margin-top:53px;
+	height:325px;
+}
+
+.bottext{
+	margin:10px;
+	font-size: 14px;
+}
+
+.tech{
+	margin: 10px;
+	color:white;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.techbox{
+	float:left;
+	height:40px;
+	width: 277px;
+	background: -webkit-linear-gradient(#A2A1A8, #8C8A97, #A2A1A8); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#A2A1A8, #8C8A97, #A2A1A8); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#A2A1A8, #8C8A97, #A2A1A8); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#A2A1A8, #8C8A97, #A2A1A8);
+}
+
+.logos{
+	background-color: #DDCFDC;
+	height: 153px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	height:100px;
+}
+
+.logo{
+	display: inline-block;
+	height: 40px;
+	margin: 5px 5px 5px 5px;
+}
+
+.last{
+	background-color: #DDCFDC;
+	height:83px;
+}
+
+.button{
+	position:relative;
+	background-color: #407D61;
+	display: block;
+	height: 20px;
+	width:75px;
+	top: 45px;
+	left:107px;
+	border-radius: 7px;
+	border: 1px solid black;
+}
+
+.buttonText{
+	position: relative;
+	float:right;
+	bottom: 15px;
+	right: 8px;
+	color:white;
+
+}
+#famcontact{
+	width: 120px;
+	left:82px;
+}
+
+#five11{
+	width: 85px;
+	left: 100px;
+}
+
+#contactInfo{
+	position: relative;
+	top:10px;
+	left:335px;
+}
+
+#social{
+	display: block;
+	margin-left: 270px;
+}
+
+.media{
+	position: relative;
+	top:15px;
+	width:25px;
+}
+
+.username{
+	position: relative;
+	top: 5px;
+	font-style: italic;
+	text-decoration: underline;
+}
