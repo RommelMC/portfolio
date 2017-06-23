@@ -9,6 +9,10 @@
     padding: 0 30px;
 }
 
+p{
+    margin:0;
+}
+
 #name{
     font-family: "Comic Sans MS", cursive, sans-serif;
     display: inline-block;
@@ -67,6 +71,7 @@
     font-size: 18px;
     padding-top: 12px;
     padding-left: 10px;
+    /*margin: 0px;*/
 }
 
 .info1{
@@ -107,13 +112,16 @@
 }
 
 .logos{
+    margin-top: 0px;
+    vertical-align: top;
     background: -webkit-linear-gradient(left, #FDFCFD , #DBCDDA); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(right, #FDFCFD , #DBCDDA); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(right, #FDFCFD , #DBCDDA); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to right, #FDFCFD , #DBCDDA); /* Standard syntax */
     height: 133px;
     width: 227px;
-    padding: 5px; 5px;
+    padding: 5px;
+    list-style-type: none;
 }
 
 .logo{
@@ -121,6 +129,11 @@
     height:30px;
     width: 30px;
     margin: 5px;
+}
+
+.logos>li{
+    vertical-align: top;
+    display: inline-block;
 }
 
 .button{
@@ -171,6 +184,12 @@
     margin-top: 20px;
     margin-right: auto;
     margin-left: auto;
+    list-style-type: none;
+}
+
+#media>li{
+    display: inline-block;
+    vertical-align: top;
 }
 
 .social{
